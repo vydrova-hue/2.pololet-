@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .content-box, .border-box {
+        background: rgb(255, 118, 232);
+        width: 200px;
+        height: 50px;
+        margin:8px;
+        padding: 20px;
+        border: 10px solid rgb(17,77);
+}
+
+.content-box {
+    box-sizing: content-box;
+
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+<title>Document</title>
+</head>
+<body>
+    
+    <section class="wrap">
+        <h1>Box-sizing</h1>
+        <div class="content-box">content-box</div>
+        <div class="border-box">Border-box</div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.card {
+    background-color: orangered;
+    width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(red, green, blue, alpha);
+}
+
+h1{
+    color: rgb(255, 230, 0);
+}
+p{
+    color: rgb(0, 0, 0);
+    strong{
+        color: rgb(95, 218, 197);
+    }
+}

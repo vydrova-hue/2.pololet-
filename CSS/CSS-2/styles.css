@@ -1,0 +1,47 @@
+body {
+margin: 0;
+padding: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot
+}
+.wrap {
+    padding: 16px;
+}
+.panel {
+width: 400px;
+height: 400px;
+background-color: aquamarine;
+
+border-width: 10px;
+border-style: solid;
+border-color: azure;
+
+display: grid;
+place-items: center;
+margin-bottom: 16px;
+}
+
+.weird{
+width: 400px;
+height: 400px;
+border-width: 10px;
+
+background-color:blueviolet;
+
+border-left-style: dashed;
+border-top-style: dotted;
+border-right-style: solid;
+border-bottom-style: double;
+
+border-right-color:aliceblue;
+margin-bottom: 16px;
+display: grid;
+place-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background: 5px solid yellow;
+    border: 5px solid brown;
+display: grid;
+}
